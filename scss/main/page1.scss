@@ -1,0 +1,21 @@
+@import './../modules/variable.scss';
+@import './../modules/classes.scss';
+@import './../modules/mixins.scss';
+
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    header {
+        position: fixed;
+    }
+}
+.page-name {
+    color: $color04;
+    font-size: $fontsize04;
+    display: inline-block;
+}
+.logo {
+    display: inline-block;
+}
