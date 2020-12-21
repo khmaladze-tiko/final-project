@@ -251,6 +251,100 @@ body {
 .flex {
     display: flex;
     padding-top: 20px;
+    justify-content: space-between;
 }
+.section4{
+    padding-top: 50px;
+}
+.category {
+    font-size: $fontsize04;
+    padding-left: $size03;
+}
+.category-text{
+    font-size: $fontsize02;
+    padding-top: 20px;
+    padding-left: $size02;
+}
+.category-text2 {
+    font-size: $fontsize02;
+    padding-left: 450px;
+}
+.big-plant1 {
+    width: 680px;
+    height: 350px;
+}
+.small-plant {
+    width: 480px;
+    height: 350px;
+}
+.relative4-1 {
+    position: relative;
+    h4 {
+        position: absolute;
+        top: 70px;
+        left: 240px;
+        font-size: $fontsize07;
+        color: rgb(192, 138, 56);
+    }
+}
+.relative4-2 {
+    position: relative;
+    h4 {
+        position: absolute;
+        top: 70px;
+        left: 150px;
+        font-size: $fontsize07;
+        color: rgb(192, 138, 56);
+    }
+}
+.relative4-3 {
+    position: relative;
+    h4 {
+        position: absolute;
+        top: 40px;
+        left: 150px;
+        font-size: $fontsize07;
+        color: rgb(192, 138, 56);
+    }
+}
+.relative4-4 {
+    position: relative;
+    h4 {
+        position: absolute;
+        top: 40px;
+        left: 240px;
+        font-size: $fontsize07;
+        color: rgb(192, 138, 56);
+    }
+}
+.section5 {
+    padding-top: 50px;
+    div {
+        padding-top: 30px;
+        
+    }
+}
+.category2 {
+    font-size: $fontsize04;
+    padding-left: 400px;
+}
+.products {
+    width: 360px;
+    height: 420px;
+}
+.plant-name {
+    font-size: $fontsize03;
+    padding-top: 30px;
+    padding-left: 130px;
+}
+.price {
+    font-size: $fontsize06;
+    padding-top: 20px;
+    padding-left:150px ;
+    color: blue;
+}
+
+
+
 
 

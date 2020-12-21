@@ -258,4 +258,89 @@ body {
 
 .flex {
   display: flex;
-  padding-top: 20px; }
+  padding-top: 20px;
+  justify-content: space-between; }
+
+.section4 {
+  padding-top: 50px; }
+
+.category {
+  font-size: 80px;
+  padding-left: 300px; }
+
+.category-text {
+  font-size: 16px;
+  padding-top: 20px;
+  padding-left: 200px; }
+
+.category-text2 {
+  font-size: 16px;
+  padding-left: 450px; }
+
+.big-plant1 {
+  width: 680px;
+  height: 350px; }
+
+.small-plant {
+  width: 480px;
+  height: 350px; }
+
+.relative4-1 {
+  position: relative; }
+  .relative4-1 h4 {
+    position: absolute;
+    top: 70px;
+    left: 240px;
+    font-size: 40px;
+    color: #c08a38; }
+
+.relative4-2 {
+  position: relative; }
+  .relative4-2 h4 {
+    position: absolute;
+    top: 70px;
+    left: 150px;
+    font-size: 40px;
+    color: #c08a38; }
+
+.relative4-3 {
+  position: relative; }
+  .relative4-3 h4 {
+    position: absolute;
+    top: 40px;
+    left: 150px;
+    font-size: 40px;
+    color: #c08a38; }
+
+.relative4-4 {
+  position: relative; }
+  .relative4-4 h4 {
+    position: absolute;
+    top: 40px;
+    left: 240px;
+    font-size: 40px;
+    color: #c08a38; }
+
+.section5 {
+  padding-top: 50px; }
+  .section5 div {
+    padding-top: 30px; }
+
+.category2 {
+  font-size: 80px;
+  padding-left: 400px; }
+
+.products {
+  width: 360px;
+  height: 420px; }
+
+.plant-name {
+  font-size: 22px;
+  padding-top: 30px;
+  padding-left: 130px; }
+
+.price {
+  font-size: 18px;
+  padding-top: 20px;
+  padding-left: 150px;
+  color: blue; }
