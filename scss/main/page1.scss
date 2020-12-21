@@ -2,20 +2,145 @@
 @import './../modules/classes.scss';
 @import './../modules/mixins.scss';
 
-
+body {
+  max-width: 1200px;
+  width: 100%;
+}
 .container {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+    padding-left: 50px;
     header {
         position: fixed;
+        width: 1200px;
+        max-width: 100%;
+        height: 147px;
+        background-color: $color02;
+        z-index: 100;
+        div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
+.navbar-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    li {
+        padding-left: 50px;
+        font-size: $fontsize02;
+        color: $color01;
     }
 }
 .page-name {
     color: $color04;
-    font-size: $fontsize04;
+    font-size: $fontsize05;
     display: inline-block;
 }
 .logo {
     display: inline-block;
 }
+.container2 {
+    padding-top: 147px;
+}
+.section-1 {
+    padding-top: 50px;
+    display: flex;
+}
+.section-title {
+    width: 600px;
+    h3 {
+    font-size: $fontsize04;
+    color: $color01;
+    padding-bottom: 20px;}
+}
+.section-title h4 {
+    font-size: $fontsize06;
+    color: $color01;
+}
+.button1 {
+    padding-top: 30px;
+}
+.button2 {
+    background-color: $color04;
+    width: 217px;
+    height: 56px;
+    color: $color02;
+    font-size: $fontsize02;
+}
+.plant-3 {
+    padding-top: 45px;
+    img {
+    width: 180px;
+    height: 250px;}
+}
+.big-plant {
+    width: 600px;
+    height: 600px;
+}
+.section-2 {
+    padding-top: 30px;
+    // display: inline-block;
+    display: flex;
+}
+.relative {
+    position: relative;
+    z-index: 1;
+}
+.cover-img {
+    position: absolute;
+    height: 700px;
+    width: 550px;
+}
+.cover-text {
+    position: absolute;
+    top: 100px;
+    h3 {
+        font-size: $fontsize05;
+        padding-left: 220px;
+    }
+    h4 {
+        font-size: $fontsize07;
+        padding-top: 20px;
+        padding-left: 140px;
+    }
+    p {
+        font-size: $fontsize02;
+        color: $color04;
+        padding-left: 240px;
+        padding-top: 30px;
+    }
+}
+// .relative2 {
+//     position: relative;
+//     z-index: 1;
+// }
+// .cover2-img {
+//     position: absolute;
+//     height: 340px;
+//     width: 550px;
+//     // padding-left: 600px;
+// }
+// .cover2-text {
+//     position: absolute;
+//     top: 100px;
+//     // padding-left: 600px;
+//     h3 {
+//         font-size: $fontsize05;
+//         padding-left: 220px;
+//     }
+//     h4 {
+//         font-size: $fontsize07;
+//         padding-top: 20px;
+//         padding-left: 140px;
+//     }
+//     p {
+//         font-size: $fontsize02;
+//         color: $color04;
+//         padding-left: 240px;
+//         padding-top: 30px;
+//     }
+// }
