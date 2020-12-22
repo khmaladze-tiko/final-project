@@ -343,8 +343,76 @@ body {
     padding-left:150px ;
     color: blue;
 }
-
-
-
-
-
+.section6 {
+    background-color: $color04;
+    margin-top: 50px;
+}
+.box5-title {
+    font-size: 50px;
+    padding-left: 400px;
+    color: $color02;
+    padding-top: 50px;
+}
+.box5-title2 {
+    font-size: $fontsize02;
+    padding-left: $size03;
+    color: $color02;
+    padding-top: 20px;
+}
+.box5-title3 {
+    font-size: $fontsize02;
+    padding-left: 290px;
+    color: $color02;
+    padding-top: 10px;
+}
+.green-box {
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    h2 {
+    color: $color02;
+    font-size: $fontsize05;
+    }
+    h3 {
+    color: $color02;
+    font-size: $fontsize02;
+    padding-top: 20px;
+    }
+    h4 {
+    color: $color02;
+    font-size: $fontsize02;
+    }
+}
+.all-sale {
+    display: flex;
+    padding-top: 30px;
+    del {
+        color: $color02;
+        font-size: $fontsize05;
+    }
+    h5 {
+        color: $color02;
+        font-size: $fontsize05;
+        padding-left: 10px;
+    }
+}
+.button-2 {
+    padding-top: 30px;
+    .button2-2 {
+        background-color: $color02;
+    width: 217px;
+    height: 56px;
+    color: $color01;
+    font-size: $fontsize02;
+    }
+}
+.ficus {
+    width: 200px;
+    height: 220px;
+    padding-right: 200px;
+    padding-top: 50px;
+}
+.products2 {
+    width: 360px;
+    height: 360px;
+}
