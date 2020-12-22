@@ -2,6 +2,7 @@
 @import './../modules/classes.scss';
 @import './../modules/mixins.scss';
 
+// header
 body {
   max-width: 1200px;
   width: 100%;
@@ -416,3 +417,102 @@ body {
     width: 360px;
     height: 360px;
 }
+.category-text3 {
+    font-size: $fontsize02;
+    padding-left: 330px;
+    padding-top: 30px;
+}
+.section7 {
+    margin-top: 50px;
+}
+.blog {
+    padding-top: 50px;
+    padding-left: 50px;
+    h2 {
+        font-size: $fontsize05;
+    }
+    h4 {
+        font-size: $fontsize05;
+        padding-top: 10px;
+    }
+    h3 {
+        font-size: $fontsize01;
+        color: $color03;
+        padding-top: 20px;
+    }
+    p {
+        font-size: $fontsize02;
+        color: $color03;
+        padding-top: 30px;
+    }
+    .button3 {
+        padding-top: 30px;
+        .button3-text {
+            width: 217px;
+            height: 56px;
+            color: $color01;
+            font-size: $fontsize02;
+            background-color: $color04;
+            color: $color02;
+        }
+    }
+}
+.christmas-plant {
+    padding-top: 30px;
+}
+footer {
+    background-color: $color04;
+    margin-top: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right: 100px;
+}
+.footer-box {
+    padding-left: 100px;
+    h3 {
+        font-size: $fontsize07;
+        color: $color02;
+    }
+    h4 {
+        color: $color02;
+        font-size: $fontsize02;
+        padding-top: 20px;
+    }
+    h5 {
+        color: $color02;
+        font-size: $fontsize02;
+        padding-top: 5px;
+    }
+}
+.border {
+    width: 1$size01;
+	padding: 10px;
+    margin: 10px 0 10px 0;
+}
+.subscribe {
+    width: 100px;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    background-color: $color05;
+    color: $color02;
+}
+.footer-nav h2 {
+    color: $color02;
+    font-size: $fontsize06;
+    padding-bottom: 30px;
+}
+.footer-ul li {
+    padding-top: 10px;
+    a {
+        text-decoration: none;
+        color: $color02;
+        font-size: $fontsize01;
+    }
+}
+.footer-flex {
+    display: flex;
+    li {
+        padding-right: 10px;
+    }
+}
+

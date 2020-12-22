@@ -411,3 +411,90 @@ body {
 .products2 {
   width: 360px;
   height: 360px; }
+
+.category-text3 {
+  font-size: 16px;
+  padding-left: 330px;
+  padding-top: 30px; }
+
+.section7 {
+  margin-top: 50px; }
+
+.blog {
+  padding-top: 50px;
+  padding-left: 50px; }
+  .blog h2 {
+    font-size: 32px; }
+  .blog h4 {
+    font-size: 32px;
+    padding-top: 10px; }
+  .blog h3 {
+    font-size: 14px;
+    color: grey;
+    padding-top: 20px; }
+  .blog p {
+    font-size: 16px;
+    color: grey;
+    padding-top: 30px; }
+  .blog .button3 {
+    padding-top: 30px; }
+    .blog .button3 .button3-text {
+      width: 217px;
+      height: 56px;
+      color: black;
+      font-size: 16px;
+      background-color: #1a4e1a;
+      color: white; }
+
+.christmas-plant {
+  padding-top: 30px; }
+
+footer {
+  background-color: #1a4e1a;
+  margin-top: 50px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-right: 100px; }
+
+.footer-box {
+  padding-left: 100px; }
+  .footer-box h3 {
+    font-size: 40px;
+    color: white; }
+  .footer-box h4 {
+    color: white;
+    font-size: 16px;
+    padding-top: 20px; }
+  .footer-box h5 {
+    color: white;
+    font-size: 16px;
+    padding-top: 5px; }
+
+.border {
+  width: 1 100px;
+  padding: 10px;
+  margin: 10px 0 10px 0; }
+
+.subscribe {
+  width: 100px;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  background-color: #5fa35f;
+  color: white; }
+
+.footer-nav h2 {
+  color: white;
+  font-size: 18px;
+  padding-bottom: 30px; }
+
+.footer-ul li {
+  padding-top: 10px; }
+  .footer-ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px; }
+
+.footer-flex {
+  display: flex; }
+  .footer-flex li {
+    padding-right: 10px; }
