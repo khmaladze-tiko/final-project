@@ -269,16 +269,16 @@ body {
 
 .category {
   font-size: 80px;
-  padding-left: 300px; }
+  text-align: center; }
 
 .category-text {
   font-size: 16px;
   padding-top: 20px;
-  padding-left: 200px; }
+  text-align: center; }
 
 .category-text2 {
   font-size: 16px;
-  padding-left: 450px; }
+  text-align: center; }
 
 .big-plant1 {
   width: 680px;
@@ -331,7 +331,7 @@ body {
 
 .category2 {
   font-size: 80px;
-  padding-left: 400px; }
+  text-align: center; }
 
 .products {
   width: 360px;
@@ -354,19 +354,19 @@ body {
 
 .box5-title {
   font-size: 50px;
-  padding-left: 400px;
+  text-align: center;
   color: white;
   padding-top: 50px; }
 
 .box5-title2 {
   font-size: 16px;
-  padding-left: 300px;
+  text-align: center;
   color: white;
   padding-top: 20px; }
 
 .box5-title3 {
   font-size: 16px;
-  padding-left: 290px;
+  text-align: center;
   color: white;
   padding-top: 10px; }
 
@@ -418,8 +418,11 @@ body {
 
 .category-text3 {
   font-size: 16px;
-  padding-left: 330px;
+  text-align: center;
   padding-top: 30px; }
+
+.category-text2 {
+  text-align: center; }
 
 .section7 {
   margin-top: 50px; }
