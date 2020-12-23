@@ -55,7 +55,8 @@ body {
 .navbar-ul {
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  flex-wrap: wrap; }
   .navbar-ul li {
     padding-left: 50px;
     font-size: 22px; }
@@ -198,7 +199,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 50px; }
+  padding-top: 50px;
+  flex-wrap: wrap; }
 
 .decoration {
   width: 550px;
@@ -259,7 +261,8 @@ body {
 .flex {
   display: flex;
   padding-top: 20px;
-  justify-content: space-between; }
+  justify-content: space-between;
+  flex-wrap: wrap; }
 
 .section4 {
   padding-top: 50px; }
@@ -384,6 +387,7 @@ body {
 
 .all-sale {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 30px; }
   .all-sale del {
     color: white;
@@ -394,7 +398,7 @@ body {
     padding-left: 10px; }
 
 .button-2 {
-  padding-top: 30px; }
+  margin-top: 30px; }
   .button-2 .button2-2 {
     background-color: white;
     width: 217px;
@@ -422,7 +426,8 @@ body {
 
 .blog {
   padding-top: 50px;
-  padding-left: 50px; }
+  padding-left: 50px;
+  width: 600px; }
   .blog h2 {
     font-size: 32px; }
   .blog h4 {
@@ -495,6 +500,67 @@ footer {
     font-size: 14px; }
 
 .footer-flex {
-  display: flex; }
+  display: flex;
+  flex-wrap: wrap; }
   .footer-flex li {
     padding-right: 10px; }
+
+.navbar-ul a:hover {
+  color: #5fa35f; }
+
+.mini-box {
+  transition: all 0.1s ease 0.1s; }
+
+.mini-box2 {
+  transition: all 0.1s ease 0.1s; }
+
+.mini-box:hover {
+  background-color: burlywood;
+  transform: scale(1.1); }
+
+.mini-box2:hover {
+  background-color: burlywood;
+  transform: scale(1.1); }
+
+.plant-3 img:hover {
+  transform: scale(1.1); }
+
+.relative {
+  transition: all 0.1s ease 0.1s; }
+
+.relative:hover {
+  transform: scale(1.1); }
+
+.page1-box {
+  transition: all 0.1s ease 0.1s; }
+
+.page1-box:hover {
+  transform: scale(1.1); }
+
+.button2 {
+  transition: all 0.1s ease 0.1s; }
+
+.button2:hover {
+  background-color: #5fa35f; }
+
+.relative4-2:hover, .relative4-3:hover, .relative4-1:hover, .relative4-4:hover, .products:hover, .products2:hover {
+  transform: scale(0.9); }
+
+.button2-2:hover {
+  background-color: #5fa35f; }
+
+.navbar-li:hover {
+  color: black; }
+
+.shop {
+  transition: all 0.3s ease 0.3s;
+  animation-name: box;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite; }
+
+@keyframes box {
+  0% {
+    color: darkgreen; }
+  100% {
+    color: #b69dc0; } }
