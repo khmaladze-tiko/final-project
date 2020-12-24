@@ -1,12 +1,3 @@
-
-
-    /*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 6 version
-*/
-
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -236,28 +227,15 @@ table {
 header {
   background-color: white; }
   header div {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
+    justify-content: space-between;
+    align-items: center; }
 
 .navbar-ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; }
   .navbar-ul li {
     padding-left: 50px;
     font-size: 22px; }
@@ -281,22 +259,13 @@ header {
 
 .section-1 {
   padding-top: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
 
 .section-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between; }
   .section-title h3 {
     font-size: 80px;
     color: black;
@@ -412,18 +381,11 @@ header {
     padding-top: 30px; }
 
 .section3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   padding-top: 50px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+  flex-wrap: wrap; }
 
 .decoration {
   width: 550px;
@@ -482,15 +444,10 @@ header {
     padding-left: 10px; }
 
 .flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding-top: 20px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+  justify-content: space-between;
+  flex-wrap: wrap; }
 
 .section4 {
   padding-top: 50px; }
@@ -622,11 +579,8 @@ header {
     font-size: 16px; }
 
 .all-sale {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   padding-top: 30px; }
   .all-sale del {
     color: white;
@@ -742,17 +696,12 @@ footer {
     font-size: 14px; }
 
 .footer-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+  flex-wrap: wrap; }
   .footer-flex li {
     padding-right: 10px; }
 
 .navbar-ul a {
-  -webkit-transition: all 0.05s ease 0.05s;
-  -o-transition: all 0.05s ease 0.05s;
   transition: all 0.05s ease 0.05s; }
 
 .navbar-ul a:hover {
@@ -762,64 +711,42 @@ footer {
   border-bottom: 2px solid #5fa35f; }
 
 .mini-box {
-  -webkit-transition: all 0.1s ease 0.1s;
-  -o-transition: all 0.1s ease 0.1s;
   transition: all 0.1s ease 0.1s; }
 
 .mini-box2 {
-  -webkit-transition: all 0.1s ease 0.1s;
-  -o-transition: all 0.1s ease 0.1s;
   transition: all 0.1s ease 0.1s; }
 
 .mini-box:hover {
   background-color: burlywood;
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1); }
+  transform: scale(1.1); }
 
 .mini-box2:hover {
   background-color: burlywood;
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1); }
+  transform: scale(1.1); }
 
 .plant-3 img:hover {
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1); }
+  transform: scale(1.1); }
 
 .relative {
-  -webkit-transition: all 0.1s ease 0.1s;
-  -o-transition: all 0.1s ease 0.1s;
   transition: all 0.1s ease 0.1s; }
 
 .relative:hover {
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1); }
+  transform: scale(1.1); }
 
 .page1-box {
-  -webkit-transition: all 0.1s ease 0.1s;
-  -o-transition: all 0.1s ease 0.1s;
   transition: all 0.1s ease 0.1s; }
 
 .page1-box:hover {
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1); }
+  transform: scale(1.1); }
 
 .button2 {
-  -webkit-transition: all 0.1s ease 0.1s;
-  -o-transition: all 0.1s ease 0.1s;
   transition: all 0.1s ease 0.1s; }
 
 .button2:hover {
   background-color: #5fa35f; }
 
 .relative4-2:hover, .relative4-3:hover, .relative4-1:hover, .relative4-4:hover, .products:hover, .products2:hover {
-  -webkit-transform: scale(0.9);
-      -ms-transform: scale(0.9);
-          transform: scale(0.9); }
+  transform: scale(0.9); }
 
 .button2-2:hover {
   background-color: #5fa35f; }
@@ -828,30 +755,14 @@ footer {
   color: black; }
 
 .shop {
-  -webkit-transition: all 0.3s ease 0.3s;
-  -o-transition: all 0.3s ease 0.3s;
   transition: all 0.3s ease 0.3s;
-  -webkit-animation-name: box;
-          animation-name: box;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite; }
+  animation-name: box;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite; }
 
 .responsive-menu {
-  display: none;
-  position: absolute;
-  display: inline-block;
-  background-color: #5fa35f; }
-
-.burger:hover .responsive-menu {
-  display: block; }
-
-.hide {
-  text-decoration: none;
-  color: white; }
+  display: none; }
 
 @media (max-width: 1024px) {
   .container {
@@ -1040,12 +951,6 @@ footer {
     display: block; }
   .responsive.menu {
     display: none; } }
-
-@-webkit-keyframes box {
-  0% {
-    color: darkgreen; }
-  100% {
-    color: #b69dc0; } }
 
 @keyframes box {
   0% {
