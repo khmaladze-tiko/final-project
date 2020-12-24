@@ -610,4 +610,19 @@ footer {
     animation-delay: 2s;
     animation-iteration-count: infinite;
 }
+.responsive-menu {
+    display: none;
+    position: absolute;
+    display: inline-block;
+    background-color: $color05;
+}
+.burger:hover .responsive-menu {
+    display: block;
+}
+.hide {
+    text-decoration: none;
+    color: $color02;
+}
+
+
 

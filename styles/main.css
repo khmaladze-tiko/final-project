@@ -215,7 +215,9 @@ table {
   .footer-ul li a {
     font-size: 10px; }
   .footer-flex {
-    display: block; } }
+    display: block; }
+  .responsive.menu {
+    display: none; } }
 
 .container {
   max-width: 1200px;
@@ -759,6 +761,19 @@ footer {
   animation-delay: 2s;
   animation-iteration-count: infinite; }
 
+.responsive-menu {
+  display: none;
+  position: absolute;
+  display: inline-block;
+  background-color: #5fa35f; }
+
+.burger:hover .responsive-menu {
+  display: block; }
+
+.hide {
+  text-decoration: none;
+  color: white; }
+
 @media (max-width: 1024px) {
   .container {
     max-width: 1024px;
@@ -943,7 +958,9 @@ footer {
   .footer-ul li a {
     font-size: 10px; }
   .footer-flex {
-    display: block; } }
+    display: block; }
+  .responsive.menu {
+    display: none; } }
 
 @keyframes box {
   0% {
