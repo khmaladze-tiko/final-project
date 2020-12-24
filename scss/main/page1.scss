@@ -1,31 +1,30 @@
 @import './../modules/variable.scss';
 @import './../modules/classes.scss';
 @import './../modules/mixins.scss';
+@import './../main/media.scss';
 
 // header
-body {
-  max-width: 1200px;
-  width: 100%;
-}
 .container {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-    padding-left: 50px;
+} 
     header {
-        position: fixed;
-        width: 1200px;
-        max-width: 100%;
-        height: 147px;
+    //    position: fixed;
+        
+        // height: 147px;
         background-color: $color02;
-        z-index: 100;
+        // z-index: 100;
         div {
+            // max-width: 1200px;
+            // width: 100%;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
     }
-}
+
+
 .navbar-ul {
     display: flex;
     justify-content: space-between;
@@ -49,6 +48,9 @@ body {
 .logo {
     display: inline-block;
 }
+.burger {
+    display: none;
+}
 .container2 {
     padding-top: 147px;
 }
@@ -57,7 +59,11 @@ body {
     display: flex;
 }
 .section-title {
-    width: 600px;
+    // width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
     h3 {
     font-size: $fontsize04;
     color: $color01;
@@ -281,7 +287,15 @@ body {
     width: 680px;
     height: 350px;
 }
+.big-plant11 {
+    width: 680px;
+    height: 350px;
+}
 .small-plant {
+    width: 480px;
+    height: 350px;
+}
+.small-plant22 {
     width: 480px;
     height: 350px;
 }
@@ -533,8 +547,17 @@ footer {
     }
 }
 // animation
+.navbar-ul a {
+    transition: all 0.05s ease 0.05s;
+}
 .navbar-ul a:hover {
     color: $color05;
+}
+.navbar-ul a {
+    &:hover, 
+    &:active {
+        border-bottom: 2px solid $color05;
+    }
 }
 .mini-box {
     transition: all 0.1s ease 0.1s;
@@ -587,3 +610,4 @@ footer {
     animation-delay: 2s;
     animation-iteration-count: infinite;
 }
+

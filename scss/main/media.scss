@@ -1,0 +1,262 @@
+@media (max-width:1024px) {
+    .container {
+        max-width: 1024px;
+        width: 100%;
+    }
+    .nav1 {
+        padding-right: 100px;
+    }
+    .navbar-ul a {
+        font-size: $fontsize02;
+    }
+    .page-name {
+        display: none;
+    }
+    .big-plant {
+        display: none;
+    }
+    // .section-title div {
+    //     max-width: 100%;
+    // }
+    .section-1 {
+        text-align: center;
+    }
+    .cover-img {
+        height: 500px;
+        width: 450px;
+    }
+    .cover-text h3 {
+        padding-left: 170px;
+    }
+    .cover-text h4 {
+        padding-left: 130px;
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    .cover-text p {
+        padding-left: 200px;
+        padding-top: 40px;
+    }
+    .cover2-img {
+        height: 245px;
+        width: 470px;
+        padding-left: 460px;
+        padding-right: 200px;
+    }
+    .cover2-text h3 {
+        padding-left: 0px;
+        top: 30px;
+    }
+    .cover2-text h4 {
+        font-size: 20px;
+        padding-left: 0px;
+    }
+    .cover2-text p {
+        padding-left: 15px;
+    }
+    .cover3-img {
+        height: 245px;
+        width: 470px;
+        padding-left: 460px;
+        padding-right: 200px;
+        padding-top: 255px;
+    }
+    .cover3-text h3 {
+       display: none;
+    }
+    .cover3-text h4, p {
+        display: none;
+    }
+    .decoration {
+        width: 400px;
+        height: 700px;
+    }
+    .mini-box {
+        width: 220px;
+        height: 250px;
+    }
+    .mini-box2 {
+        width: 220px;
+        height: 250px;
+    }
+    .info-box {
+        width: 500px;
+        padding-right: 100px;
+    }
+    .first-info {
+        font-size: 30px;
+    }
+    .big-plant1 {
+        width: 550px;
+    }
+    .small-plant {
+        width: 400px;
+    }
+    .products {
+        width: 300px;
+    }
+    .products2 {
+        width: 250px;
+    }
+    .plant-name {
+        padding-right: 100px;
+        padding-left: 70px;
+    }
+    .price {
+        padding-left: 80px;
+    }
+    .price-section2 {
+        width: 300px;
+    }
+    .blog p {
+        font-size: 20px;
+    }
+    .blog {
+        width: 300px;
+        padding-right: 200px;
+    }
+    .section2, .relative, .relative2 {
+        display: none;
+    }
+    .relative3 {
+        display: none;
+    }
+    .section-title {
+        padding-left: 200px;
+    }
+    .info-box {
+        padding-left: 5px;
+    }
+}
+@media (max-width:768px) {
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+    .section-title {
+        padding-left: revert;
+        padding-left: 100px;
+    }
+    .shop {
+        font-size: 20px;
+    }
+    .decoration {
+       display: none;
+    }
+    .big-plant1 {
+        width: 100%;
+    }
+    .small-plant {
+        width: 100%;
+    }
+    .relative4-4 {
+        display: none;
+    }
+    .relative4-3 {
+        display: none;
+    }
+    .green-box {
+        padding-left: revert;
+        padding-left: 50px;
+    }
+    .ficus {
+        padding-right: revert;
+        padding-right: 50px;
+    }
+    .christmas-plant {
+        width: 70%;
+    }
+    .blog {
+        padding-right: revert;
+        padding-left: revert;
+        padding-top: revert;
+        padding-top: 30px;
+    }
+    .footer-box {
+        width: 40%;
+        padding-left: revert;
+    }
+    footer {
+        padding-right: revert;
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+}
+@media (max-width: 480px) {
+    .burger {
+        display: block;
+    }
+    .navbar {
+        display: none;
+    }
+    .shop {
+        font-size: 20px;
+    }
+    .section-title div h3 {
+        font-size: 30px;
+    }
+    .section-title {
+        padding-left: revert;
+        // margin-left: 20px;
+    }
+    .mini-box2 {
+        margin-left: revert;
+        margin-bottom: revert;
+        width: 100%;
+    }
+    .mini-box {
+        width: 100%;
+    }
+    .info-box {
+        margin-left: 40px;
+    }
+    .products {
+        width: 100%;
+    }
+    .box5-title {
+        font-size: 30px;
+    }
+    .box5-title2 {
+        font-size: 12px;
+    }
+    .box5-title3 {
+        font-size: 12px;
+    }
+    .green-box h2 {
+        font-size: 20px;
+    }
+    .green-box h3 {
+        font-size: 12px;
+    }
+    .green-box h4 {
+        font-size: 12px;
+    }
+    .green-box {
+        padding-left: revert;
+        padding-right: revert;
+        padding-left: 10px;
+    }
+    .ficus {
+        width: 150px;
+        padding-right: revert;
+        padding-right: 10px;
+    }
+    .products2 {
+        width: 100%;
+    }
+    .christmas-plant {
+        width: 100%;
+    }
+    .footer-box h3 {
+        font-size: 30px;
+    }
+    .footer-nav h2 {
+        font-size: 12px;
+    }
+    .footer-ul li a {
+        font-size: 10px;
+    }
+    .footer-flex {
+        display: block;
+    }
+}
